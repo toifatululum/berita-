@@ -13,8 +13,8 @@ const BeritaSchema = new mongoose.Schema(
       type: String
     },
     category: {
+      type:String,
       enum: ["Artis", "Hot", "News"],
-      require: true
     }
   },
   {
